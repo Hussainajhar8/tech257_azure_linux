@@ -19,12 +19,9 @@ With cloud computing, individuals and businesses can:
 
 ## What are the 4 Types/Models of Cloud?
 The four types/models of cloud are:
-- **Public Cloud**: Cloud services offered by third-party providers over the internet, available to the general public. **Main difference**: Resources are shared among multiple users and accessible via the internet. <br>
-<br>
-- **Private Cloud**: Cloud infrastructure operated solely for a single organization, either on-premises or by a third-party provider. **Main difference**: Offers dedicated resources and greater control over security and compliance.<br>
-<br>
-- **Hybrid Cloud**: Combination of public and private cloud environments, allowing data and applications to be shared between them. **Main difference**: Provides flexibility to leverage the benefits of both public and private clouds while maintaining control over sensitive data.<br>
-<br>
+- **Public Cloud**: Cloud services offered by third-party providers over the internet, available to the general public. **Main difference**: Resources are shared among multiple users and accessible via the internet.
+- **Private Cloud**: Cloud infrastructure operated solely for a single organization, either on-premises or by a third-party provider. **Main difference**: Offers dedicated resources and greater control over security and compliance.
+- **Hybrid Cloud**: Combination of public and private cloud environments, allowing data and applications to be shared between them. **Main difference**: Provides flexibility to leverage the benefits of both public and private clouds while maintaining control over sensitive data.
 - **Multi-Cloud**: Strategy of using multiple cloud providers to meet various business needs, reduce dependency on a single provider, and optimize performance and cost. **Main difference**: Involves distributing workloads across multiple cloud environments to avoid vendor lock-in and increase resilience.
 
 
