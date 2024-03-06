@@ -103,7 +103,7 @@ Businesses typically pay for:
 - Software licenses
 - Support services
 
-## Virtual Machine (VM)
+## Virtual Machines (VM)
 
 A virtual machine (VM) is like a computer inside your computer. It's a software-based version of a physical computer that runs on your PC or server. Imagine having a computer within your computer that you can use to run different operating systems and software.
 
@@ -124,13 +124,15 @@ A virtual machine (VM) is like a computer inside your computer. It's a software-
 
 ### Advantages:
 - **Flexibility**: VMs let you run different operating systems and software on the same computer or the cloud.
-- **Saves Time and Money**: You can do more with less hardware, which saves you money and time.
+- **Saves Time and Money**: You can do more with less hardware, which saves you money and time, in relation to the cloud, pay-as-you-go pricing models mean you only pay for the resources you use, reducing upfront costs.
 - **Safe Environment**: VMs provide a safe environment for testing and experimenting without risking your main computer.
+- **Global Accessibility**: Cloud VMs can be accessed from anywhere, enabling collaboration and remote work.
 
 ### Disadvantages:
 - **Can Be Slow**: Running VMs can slow down your computer, especially if you're running several at once.
-- **Learning Curve**: There's a bit of a learning curve to setting up and managing VMs, especially if you're new to it.
-- **Not Always Perfect**: Sometimes VMs can have glitches or compatibility issues, but they're usually fixable with a bit of troubleshooting.
+- **Learning Curve**: There's a bit of a learning curve to setting up and managing VMs in the cloud, especially if you're new to cloud computing.
+- **Security Concerns**: Storing data and applications in the cloud may raise security and privacy concerns, although cloud providers implement robust security measures.
+- **Potential Downtime**: Like any technology, cloud VMs can experience downtime due to maintenance or outages, impacting business operations.
 
 ![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/0dd73915-bd25-4e9a-bf0c-4327096101a8)
 
