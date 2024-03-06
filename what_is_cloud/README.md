@@ -2,7 +2,7 @@
 
 ## What is Cloud Computing?
 Cloud computing refers to the delivery of computing services (such as servers, storage, databases, networking, software, analytics, and intelligence) over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale. <br>
-This could be simplified to anything that involves delivering services over the internet as opposed to hardware or software installations on devices
+This could be simplified to anything that involves delivering services over the internet as opposed to hardware or software installations on devices, it's somewhere else, on-demand and centrally managed.
 ![img.png](img.png)
 
 ## Quick History/Timeline of Cloud Computing:
