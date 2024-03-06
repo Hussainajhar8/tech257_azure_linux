@@ -18,6 +18,8 @@ With cloud computing, individuals and businesses can:
 - Implement disaster recovery and backup solutions.
 
 ## What are the 4 Types/Models of Cloud?
+![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/f2369870-e3e4-4c95-af8f-8f59c83b56ac)
+
 The four types/models of cloud are:
 - **Public Cloud**: Cloud services offered by third-party providers over the internet, available to the general public. **Main difference**: Resources are shared among multiple users and accessible via the internet.
 - **Private Cloud**: Cloud infrastructure operated solely for a single organization, either on-premises or by a third-party provider. **Main difference**: Offers dedicated resources and greater control over security and compliance.
@@ -26,6 +28,8 @@ The four types/models of cloud are:
 
 
 ## What are the Different Types of Cloud Service?
+![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/96fcbefa-c63f-4917-916e-c31d18a3ee9f)
+
 The main types of cloud services are:
 - **Infrastructure as a Service (IaaS)**: Provides virtualized computing resources over the internet, including virtual machines, storage, and networking. **Main difference**: Offers more control over the infrastructure compared to other services.
 
@@ -57,10 +61,14 @@ The cloud computing market is dominated by AWS, followed by Microsoft Azure and 
 - AWS: Vast array of services and global infrastructure.
 - Azure: Integration with Microsoft products and services.
 - GCP: Expertise in data analytics and machine learning.
+  ![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/14a2662c-82b6-4e39-b6d9-0406fa346630)
+
 
 ## What are the 4 Pillars of DevOps? How do They Link into the Cloud?
+![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/a0b8de37-e78d-4fc2-8ad6-349a9a7632e7)
+
 The four pillars of DevOps:
-### 1. Culture:
+### 1. Communication:
 - **Description**: DevOps culture emphasizes collaboration, communication, and shared responsibility among development, operations, and other stakeholders.
 - **Importance**: Encourages a cultural shift towards continuous improvement, innovation, and teamwork, fostering a conducive environment for DevOps practices.
 
@@ -68,11 +76,11 @@ The four pillars of DevOps:
 - **Description**: Automation involves automating repetitive tasks, processes, and workflows to streamline development, deployment, testing, and operations.
 - **Importance**: Reduces manual errors, accelerates delivery, enhances consistency, and frees up human resources for more strategic tasks.
 
-### 3. Measurement:
+### 3. Monitoring:
 - **Description**: Measurement involves collecting, analyzing, and interpreting data to monitor progress, identify bottlenecks, and make informed decisions.
 - **Importance**: Provides visibility into the DevOps process, enables continuous feedback and improvement, and helps align efforts with business objectives.
 
-### 4. Sharing:
+### 4. Communication:
 - **Description**: Sharing emphasizes knowledge sharing, collaboration, and transparency across teams, departments, and organizations.
 - **Importance**: Facilitates cross-functional collaboration, fosters a culture of learning and innovation, and promotes the reuse of best practices and resources.
 
@@ -94,3 +102,35 @@ Businesses typically pay for:
 - Compute power
 - Software licenses
 - Support services
+
+## Virtual Machine (VM)
+
+A virtual machine (VM) is like a computer inside your computer. It's a software-based version of a physical computer that runs on your PC or server. Imagine having a computer within your computer that you can use to run different operating systems and software.
+
+### What It Does:
+- **Acts Like a Computer**: A VM behaves just like a real computer. It has its own operating system, applications, and settings, but it's all running on your actual computer.
+- **Creates Virtual Environments**: With VMs, you can create multiple virtual environments on a single physical machine. Each VM is isolated from the others, so you can run different things without them interfering with each other.
+- **Easy to Move Around**: You can easily move a VM from one computer to another. It's like moving a file from one folder to another, but instead, you're moving an entire computer!
+
+### Why It's Useful:
+- **Testing and Development**: VMs are great for testing new software or developing apps. You can try things out without worrying about messing up your main computer.
+- **Saving Space and Money**: Instead of buying multiple physical computers for different tasks, you can run everything on one machine using VMs. It saves space and money!
+- **Backup and Recovery**: VMs make it easy to backup and recover your computer. If something goes wrong, you can quickly restore your VM to a previous state.
+- **Using VMs in the Cloud**: In the cloud, VMs are used to create virtual servers. Instead of running on your computer, these virtual servers run on powerful computers in data centres owned by cloud providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP). Using VMs in the cloud allows you to access computing resources on-demand, scale up or down as needed, and pay only for what you use.
+
+### How It Works:
+- **Hypervisor**: A hypervisor is like a manager for VMs. It's special software that creates and manages VMs on your computer. Think of it as the boss that oversees all the virtual computers.
+- **Types of Hypervisors**: There are two main types of hypervisors: ones that run directly on the hardware (bare-metal) and ones that run on top of an operating system (hosted). Both do the same job but in slightly different ways.
+
+### Advantages:
+- **Flexibility**: VMs let you run different operating systems and software on the same computer or the cloud.
+- **Saves Time and Money**: You can do more with less hardware, which saves you money and time.
+- **Safe Environment**: VMs provide a safe environment for testing and experimenting without risking your main computer.
+
+### Disadvantages:
+- **Can Be Slow**: Running VMs can slow down your computer, especially if you're running several at once.
+- **Learning Curve**: There's a bit of a learning curve to setting up and managing VMs, especially if you're new to it.
+- **Not Always Perfect**: Sometimes VMs can have glitches or compatibility issues, but they're usually fixable with a bit of troubleshooting.
+
+![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/0dd73915-bd25-4e9a-bf0c-4327096101a8)
+
