@@ -1,5 +1,12 @@
 # Azure Setup Guide
 
+## Virtual Machines (VM)
+
+A virtual machine (VM) is like a computer inside your computer. It's a software-based version of a physical computer that runs on your PC or server. Imagine having a computer within your computer that you can use to run different operating systems and software.
+
+
+![image](https://github.com/Hussainajhar8/tech257_azure_linux/assets/110145960/0dd73915-bd25-4e9a-bf0c-4327096101a8)
+
 ## How to Login to Azure
 1. Go to [portal.azure.com](https://portal.azure.com).
 2. Log in with your Microsoft account.
