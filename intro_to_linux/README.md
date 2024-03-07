@@ -64,7 +64,6 @@ GitBash, a terminal emulator for Windows, provides a Linux shell environment, en
 ![alt text](image-3.png)
 - Use `source .bashrc` to reload the configuration file and apply the changes.
 ![alt text](image-7.png)
-<br>
 
 ## Scripting:
 
