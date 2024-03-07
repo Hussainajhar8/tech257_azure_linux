@@ -60,10 +60,10 @@ GitBash, a terminal emulator for Windows, provides a Linux shell environment, en
 - To create an environment variable: `export <DEFINE_VARIABLE>=<VARIABLE_VALUE>`. 
   ![alt text](image-5.png) 
 - Environment variables created manually will be lost after exiting and SSHing back in unless you modify a configuration file (e.g., .bashrc) to load them upon startup.
-- Use `source .bashrc` to reload the configuration file and apply the changes.
 ![alt text](image-4.png)
 ![alt text](image-3.png)
-- Environment variables created manually will go after exiting and sshing back unless you modify a config file(.bashrc) that loads up upon start with this environment variable.
+- Use `source .bashrc` to reload the configuration file and apply the changes.
+![alt text](image-7.png)
 <br>
 
 ## Scripting:
