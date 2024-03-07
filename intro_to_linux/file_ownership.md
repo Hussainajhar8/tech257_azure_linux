@@ -1,10 +1,10 @@
 # Linux File Ownership
 ## Managing file ownership
 1. Managing file ownership is crucial for security and access control, ensuring only authorized users can modify or access specific files or directories.
-2. The command to view file ownership is `ls -l`, which displays detailed information including the owner and group of files and directories.
+2. The command to view file ownership is `ls -l`, which displays detailed information including the owner and group of files and directories.<br>
    ![alt text](image-8.png)
 3. When a user creates a file or directory, the permissions are typically set to allow the user full access (read, write, execute), and the file or directory belongs to the user who created it.
-4. The owner does not receive execute (X) permissions by default when creating a file to prevent accidental execution of potentially harmful scripts or programs.
+4. The owner does not receive execute (X) permissions by default when creating a file to prevent accidental execution of potentially harmful scripts or programs.<br>
 ![alt text](image-9.png)
 5. The command used to change the owner of a file or directory is `chown`, followed by the new owner's username and the name of the file or directory. `chown <new-user> <file-name>` then do `ls -l` to confirm changes.
 ## Managing file permissions
@@ -19,7 +19,7 @@
 
 5. If the file's permissions are set as described (User: read-only, Group: read and write, Other: read, write, and execute), as the owner logged in, you would have read-only permissions on the file. Even though you own the file, your permissions are restricted to read-only based on the User permissions set.
 
-6. The file "keeprunning.sh" has the following permissions:
+6. The file "keeprunning.sh" has the following permissions:<br>
    ![alt text](image-10.png) <br>
    - Owner: read, write, execute `rwx`
    - Group: read, execute `r-x`
@@ -27,7 +27,7 @@
    Additionally, it is owned by user `tcboony` and belongs to the group `staff`. The file size is 123 bytes, and it was last modified on Nov 25 at 18:36.
 
 ## Managing file permissions using numeric values
-![alt text](image-11.png)
+![alt text](image-11.png)<br>
 1. Read: 4 | Write: 2 | Execute: 1
 
 2. Assigning read and write permissions would be  6 (4 for read + 2 for write).
