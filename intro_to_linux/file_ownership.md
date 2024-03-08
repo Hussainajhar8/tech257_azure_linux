@@ -2,7 +2,7 @@
 ## Managing file ownership
 1. Managing file ownership is crucial for security and access control, ensuring only authorized users can modify or access specific files or directories.
 2. The command to view file ownership is `ls -l`, which displays detailed information including the owner and group of files and directories.<br>
-   ![alt text](image-8.png)
+   ![alt text](img/image-8.png)
 3. When a user creates a file or directory, the permissions are typically set to allow the user full access (read, write, execute), and the file or directory belongs to the user who created it.
 4. The owner does not receive execute (X) permissions by default when creating a file to prevent accidental execution of potentially harmful scripts or programs.<br>
 ![alt text](image-9.png)
