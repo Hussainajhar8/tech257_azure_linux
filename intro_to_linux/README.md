@@ -70,3 +70,36 @@ GitBash, a terminal emulator for Windows, provides a Linux shell environment, en
 - To start scripts, create a file with a .sh extension and use the shebang `#!/bin/bash` at the beginning.
   - Use `chmod` command to change file permissions to make the script executable.
 - `-y`: Subprompt to auto-approve without requiring user input. Example: `sudo apt update -y`.
+- Nginx script we created:<br>
+  ![alt text](img/image-12.png)
+
+## Processes 
+
+- `ps aux`: Displays information about all processes running on the system.
+  
+- **Daemon Processes**: Processes with a 'd' on the end, commonly indicating they are daemons.
+
+- `top`: Interactive process viewer that displays processes sorted by various criteria like CPU usage and memory.
+   - Press `Capital P` to sort by CPU usage.
+   - Press `Capital M` to sort by memory usage.
+
+- **Running and Controlling Processes**:
+   - `sleep <time(s)>`: Makes the terminal or process sleep for the specified time.
+   - To run a process in the background, use `&` at the end of the command. Example: `sleep 5000 &`.
+   - `jobs`: Shows running jobs and their status. <br>
+  
+  ![alt text](img/image-13.png)
+
+- **Zombie Processes**: Child processes left behind when a parent process is killed, consuming memory unnecessarily. <br>
+
+![alt text](img/image-16.png)
+
+- **Kill Command**: Used to terminate processes.
+   - `kill`: Attempts to terminate processes, including child processes.<br>
+  ![alt text](img/image-14.png)
+   - `kill -9`: Performs a forceful termination, useful for stubborn processes.<br>
+  ![alt text](img/image-15.png)
+  
+- **Process Managers**:
+   - **PM2**: A process manager for managing Node.js applications running in the background. It ensures that applications remain running and restarts them if necessary.
+   - If a process under PM2 is killed, PM2 will automatically restart it. To stop the process permanently, it must be killed using PM2 commands.
