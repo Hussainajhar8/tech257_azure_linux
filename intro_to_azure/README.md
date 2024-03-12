@@ -19,7 +19,7 @@ A virtual machine (VM) is like a computer inside your computer. It's a software-
 
 ## How to Create a Virtual Machine (VM)
 1. Go to Virtual Machine page and click "+ Create" -> "Azure virtual machine".
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 2. Fill in name, region, and select appropriate images and instance size for your workload.
 3. For the administrator account, select SSH public key and use existing key stored in Azure, making sure to select your own key.
 4. Allow inbound ports for SSH (22) and HTTP (80).
@@ -27,20 +27,20 @@ A virtual machine (VM) is like a computer inside your computer. It's a software-
 6. On the next page, pick the correct virtual network and public subnet.
 7. Create and allocate tags.
 8. Review and click create when ready.
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 
 ## How to SSH into your VM
 1. Click and go into your virtual machine resource in the GUI.
 2. Click Connect.
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 3. Click Native SSH.
 4. Provide the path to your SSH keys on your local machine.
 5. Now the command to SSH into your VM should be there ready to copy in step 3.
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 6. Enter this command into the terminal and click yes to whitelist your VM's public IP.
 7. Congratulations! You have SSH'ed into your new VM!
 
 ## How to Delete a VM
 1. Click and go into your virtual machine resource in the GUI.
 2. Click Delete and confirm the delete.
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)

@@ -10,15 +10,17 @@ Azure provides a variety of cloud services, including computing power, storage, 
 
 - **Azure Regions**: Geographical areas containing data centers where Azure resources are hosted. Each region is independent and consists of one or more data centers.
   
-  ![Azure Regions](azure_regions.png)
+  ![alt text](img/image-1.png)
 
 - **Availability Zones**: Physically separate data centers within an Azure region, designed to provide high availability and fault tolerance. Each availability zone is equipped with independent power, cooling, and networking.
 
-  ![Azure Availability Zones](azure_availability_zones.png)
+  ![alt text](img/image-2.png)
 
 ## Azure Structure/Organization
 
 Azure organizes resources into logical groupings called resource groups. Resource groups contain related resources, such as virtual machines, databases, and storage accounts, and provide management capabilities, such as access control and billing.
+<br>
+![alt text](img/image-3.png)
 
 ## Types/Categories of Azure Services
 
@@ -30,6 +32,7 @@ Azure offers a wide range of services across various categories:
 - **AI and Machine Learning**: Provides services for building and deploying AI models and machine learning algorithms.
 - **IoT**: Offers services for connecting, monitoring, and managing IoT devices and data.
 - **Security**: Includes services for identity management, threat protection, and security monitoring.
+- **Devops**: For private companies with fine-grained security, includes services for Devops tools and practices such as CI/CD, IAC.
 
 ## Azure Pricing Calculator
 
