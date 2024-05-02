@@ -1,4 +1,5 @@
 # Week Three
 
-This is a repo containing documentation for Azure and Linux. Throughout this week I've also worked on deploying an application on Azure.
-The repo link for the documentation on deploying the application on azure is found [Here](https://github.com/Hussainajhar8/tech257_sparta_app)
+This repository contains documentation for Azure and Linux. This week, I worked on deploying an application on Azure. 
+
+The repository link for the documentation on deploying applications on Azure is [here](https://github.com/Hussainajhar8/tech257_sparta_app)
